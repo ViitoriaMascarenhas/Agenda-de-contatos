@@ -1,0 +1,63 @@
+body {
+    font-family: American Typewriter, serif;
+    color: rgb(115, 5, 115);
+    font-size: 32px;
+}
+
+label {
+    font-family: American Typewriter, serif;
+    color: rgb(59, 18, 97);
+    font-size: 32px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(19, 12, 232, 0.2);
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    display: block;
+    width: calc(100% - 40px); /* Calcula a largura do input considerando o padding */
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: rgb(60, 4, 93);
+    display: block;
+    margin: 10px auto; /* Centraliza o botão horizontalmente */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #33042e;
+}
